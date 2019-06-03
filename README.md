@@ -15,6 +15,13 @@ Use Nuget in Asp.Net MVC Framework to Install Bootstrap v.3.3 and
 This was built in Asp.Net MVC Framework 
 and is a .sln file. Can be run locally or on a server. 
 
+## If Build Error Occurs 
+Ensure that SignalR is installed on Asp.Net instance
+Do this by using the command:
+install-package Gray.Microsoft.AspNetCore.Signalr.Server -pre 
+in the Asp.Net Package Manager Console 
+
+You can also download it and get more info on [Nuget Website](https://www.nuget.org/packages/Microsoft.AspNet.SignalR/)
 ## Built With
 
 * [Bootstrap](https://getbootstrap.com/docs/3.3/) 
